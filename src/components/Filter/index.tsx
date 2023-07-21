@@ -1,17 +1,24 @@
 import { Container } from "./styles";
 
-type Props = {
-  content: "Basic" | "Advanced" | "Expert" | "Custom";
-  checked?: boolean;
-}
+type FilterOptions = "Basic" | "Advanced" | "Expert" | "Custom";
 
-const Filter = ({ content, checked = false }: Props) => {
+type Props = {
+  content: FilterOptions;
+  checked: boolean;
+  onChange: (content: FilterOptions) => void;
+};
+
+const Filter = ({ content, checked, onChange }: Props) => {
+  const handleCheckboxChange = () => {
+    onChange(content);
+  };
+
   return (
     <Container checked={checked}>
-      <input type="checkbox" id={content} checked={checked} title={content} onChange={() => { }} />
+      <input type="checkbox" id={content} checked={checked} onChange={handleCheckboxChange} />
       {content}
     </Container>
   );
-}
+};
 
 export default Filter;
