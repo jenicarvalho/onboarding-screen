@@ -4,7 +4,7 @@ This is a simple onboarding page built using React, Typescript, and Styled Compo
 
 ## Live Preview
 
-You can see a live preview of the onboarding page [here]().
+You can see a live preview of the onboarding page [here](https://onboarding-screen.vercel.app/).
 
 ## Installation
 
