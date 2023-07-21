@@ -1,6 +1,6 @@
-import { Container } from "./styles";
+import { Container } from './styles';
 
-type FilterOptions = "Basic" | "Advanced" | "Expert" | "Custom";
+type FilterOptions = 'Basic' | 'Advanced' | 'Expert' | 'Custom';
 
 type Props = {
   content: FilterOptions;
@@ -15,7 +15,7 @@ const Filter = ({ content, checked, onChange }: Props) => {
 
   return (
     <Container checked={checked}>
-      <input type="checkbox" id={content} checked={checked} onChange={handleCheckboxChange} />
+      <input type='checkbox' id={content} checked={checked} onChange={handleCheckboxChange} />
       {content}
     </Container>
   );

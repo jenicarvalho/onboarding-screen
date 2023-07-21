@@ -40,7 +40,7 @@ export const Slider = styled.div<ItemProps>`
   transition: .5s;
 
   &::before {
-    content: "";
+    content: '';
     position: absolute;
     width: 42px;
     height: 22px;

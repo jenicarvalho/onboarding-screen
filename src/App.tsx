@@ -1,6 +1,6 @@
-import Header from "./components/Header";
-import { GlobalStyle, Main, Settings } from "./global";
-import Sales from "./pages/Sales";
+import Header from './components/Header';
+import { GlobalStyle, Main, Settings } from './global';
+import Sales from './pages/Sales';
 
 function App() {
   return (

@@ -6,10 +6,10 @@ type Props = {
 
 const Stages = ({ selectedType }: Props) => {
   const stagesByFilter: Record<string, string[]> = {
-    Basic: ["Lead", "Submitted"],
-    Advanced: ["Lead", "RFP In Progress", "Submitted"],
-    Custom: ["Lead", "RFP In Progress", "Submitted", "Closed"],
-    Expert: ["Lead", "RFP In Progress", "Submitted", "Won", "Lost", "Closed"],
+    Basic: ['Lead', 'Submitted'],
+    Advanced: ['Lead', 'RFP In Progress', 'Submitted'],
+    Custom: ['Lead', 'RFP In Progress', 'Submitted', 'Closed'],
+    Expert: ['Lead', 'RFP In Progress', 'Submitted', 'Won', 'Lost', 'Closed'],
   };
 
   const stagesToShow = stagesByFilter[selectedType] || [];
@@ -20,7 +20,7 @@ const Stages = ({ selectedType }: Props) => {
         <Item key={stage} color={stageColorMap[stage]}>
           <strong>{stage}</strong>
           <Switch>
-            <input type="checkbox" title={stage} />
+            <input type='checkbox' title={stage} />
             <Slider color={stageColorMap[stage]} />
           </Switch>
           <Content color={stageColorMap[stage]} />

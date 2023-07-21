@@ -23,7 +23,7 @@ export const Container = styled.label<LabelProps>`
     border-color: var(--blue-highlight);
   }
 
-  input[type="checkbox"] {
+  input[type='checkbox'] {
     margin-right: 18px;
     visibility: hidden;
 
@@ -40,7 +40,7 @@ export const Container = styled.label<LabelProps>`
     }
 
     &:checked::after {
-      content: "";
+      content: '';
       visibility: visible;
       background-image: url(${checkbox});
       background-size: contain;
