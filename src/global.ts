@@ -8,32 +8,32 @@ export const GlobalStyle = createGlobalStyle`
     --blue-highlight: #2462D1;
     --darkBlue-highlight: #1c51b0;
 
-    --purple: #DABFFF;
+    --Purple: #DABFFF;
     --lightPurple: #E9D9FF;
     --lighterPurple: #F7F1FF;
     --darkerPurple: #46426D;
 
-    --orange: #FFD6B3;
+    --Orange: #FFD6B3;
     --lightOrange: #FFE4CC;
     --lighterOrange: #FEF6EF;
     --darkerOrange: #66421F;
 
-    --blue: #99D1FF;
+    --Blue: #99D1FF;
     --lightBlue: #BFE3FF;
     --lighterBlue: #E6F4FF;
     --darkerBlue: #003A66;
 
-    --green: #81DDE5;
+    --Green: #81DDE5;
     --lightGreen: #AAECF2;
     --lighterGreen: #DEF5F7;
     --darkerGreen: #2A5154;
 
-    --pink: #FFBFD2;
+    --Pink: #FFBFD2;
     --lightPink: #FFD9E4;
     --lighterPink: #FFF2F6;
     --darkerPink: #773A47;
 
-    --disabled: #CBD5E0;
+    --Disabled: #CBD5E0;
     --lightDisabled: #E2E8F0;
     --lighterDisabled: #F2F7FA;
     --darkerDisabled: #4A5568;
