@@ -65,4 +65,5 @@ export const Settings = styled.div`
   border-radius: 21px;
   background: #fff;
   padding: 42px 0 12px;
+  overflow-x: scroll;
 `

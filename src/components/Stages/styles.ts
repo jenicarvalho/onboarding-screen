@@ -5,10 +5,12 @@ interface ItemProps {
 }
 
 export const Container = styled.div`
-  padding: 69px 129px 12px;
+  padding: 69px 0 12px;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-gap: 14px;
+  width: 1402px;
+  margin: 0 auto;
 `;
 
 export const Item = styled.div<ItemProps>`

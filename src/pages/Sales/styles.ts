@@ -16,5 +16,6 @@ export const Container = styled.div`
 export const Types = styled.div`
   display: flex;
   justify-content: space-between;
-  margin: 42px 23.5% 0;
+  margin: 42px auto 0;
+  width: 877px;
 `;
